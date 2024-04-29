@@ -9,7 +9,7 @@ import { ILauncher } from '@jupyterlab/launcher';
 
 import { ITranslator } from '@jupyterlab/translation';
 
-import { ExamplePanel } from './panel';
+import { CustomKernel } from './customKernels';
 
 /**
  * The command IDs used by the console plugin.
@@ -60,10 +60,10 @@ function activate(
  
   // add commands to registry
   commands.addCommand(CommandIDs.create, {
-    label: trans.__('Customise kernels'),
-    caption: trans.__('Customise kernels'),
+    label: trans.__('Custom kernels'),
+    caption: trans.__('Custom kernels'),
     execute: ()=>{
-      new ExamplePanel(manager, translator);
+      new CustomKernel(manager, translator);
     }
   });
 

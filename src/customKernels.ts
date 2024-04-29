@@ -21,7 +21,7 @@ import {
   /**
    * A panel which has the ability to add other children.
    */
-  export class ExamplePanel {
+  export class CustomKernel {
     constructor(manager: ServiceManager.IManager, translator?: ITranslator) {
       //
       console.log('kernelspecs');
@@ -47,7 +47,7 @@ import {
         })
         .catch(reason => {
           console.error(
-            `Failed to initialize the session in ExamplePanel.\n${reason}`
+            `Failed to initialize the session in CustomKernel.\n${reason}`
           );
         });
     }
