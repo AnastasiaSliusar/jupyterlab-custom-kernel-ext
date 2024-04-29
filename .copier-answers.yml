@@ -1,0 +1,19 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.2.6
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: anastasiia.sliusar@quantstack.net
+author_name: kernel-custom-ext-issue
+data_format: string
+file_extension: ''
+has_binder: true
+has_settings: true
+kind: server
+labextension_name: kernel-custom-ext-issue
+mimetype: ''
+mimetype_name: ''
+project_short_description: Kernel custom ext
+python_name: kernel_custom_ext_issue
+repository: ''
+test: true
+viewer_name: ''
+

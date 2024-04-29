@@ -1,0 +1,7 @@
+{
+  "ServerApp": {
+    "jpserver_extensions": {
+      "kernel_custom_ext_issue": true
+    }
+  }
+}

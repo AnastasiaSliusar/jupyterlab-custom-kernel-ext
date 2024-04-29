@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "kernel-custom-ext-issue",
+  "description": "kernel-custom-ext-issue settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
